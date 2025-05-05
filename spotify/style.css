@@ -1,0 +1,149 @@
+* {
+    margin: 0ch;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #212121;
+    color: #fff;
+}
+
+
+.left {
+    width: 35vw;
+    height: 100vw;
+    gap: 10;
+}
+
+section {
+    background-color: #212121;
+    padding: 8px;
+    border-radius: 7px;
+    margin: 2px;
+    margin-bottom: 8px;
+
+}
+
+.heading {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    padding-top: 14px;
+    font-weight: bold;
+    align-items: center;
+    padding: 23px 14px;
+    font-size: 13px;
+}
+
+.button {
+    border-radius: 26px;
+    padding: 5px;
+}
+
+.button-span {
+    font-size: 1px;
+
+}
+
+.right {
+    width: 65vw;
+    /* margin: 16px 0; */
+}
+
+.YourLibrary {
+    padding: 12px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #332f2f;
+}
+.header *{
+    padding: 13px;
+}
+.spotifyPlaylist{
+    padding: 16px;
+}
+.card{
+    width: 200px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #1e1e1e;
+    margin: 10px;
+    position: relative;
+}
+.cardContainer{
+    margin: 30px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    overflow:scroll;
+    max-width: 70vh;
+}
+.card > *{
+    padding-top: 10px;
+}
+.card img{
+    width: 100%;
+    object-fit: contain;
+}
+.play{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 168px;
+    right: 18px;
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+.button > *{
+    margin: 0 12px;
+}
+.signinbtn{
+    background-color: #332f2f;
+    color: grey;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.signinbtn:hover{
+    font-size: 13px;
+    color: #fff;
+
+}
+.loginbtn{
+    border-radius: 21px;
+    color: black;
+    font-size:16px;
+    outline: #332f2f;
+    cursor: pointer;
+    padding: 10px;
+    width: 79px;
+
+}
+.loginbtn:hover{
+    font-weight: bold;
+    font-size: 17px;
+    
+}
+.spotifyPlaylist{
+    position: relative;
+}
+.playbar{
+    position: absolute;
+    bottom: 0px;
+    background-color: green;
+    width: 100%;
+    padding: 12px;
+}
+.songbutton{
+    gap: 14px;
+    display: flex;
+    justify-content: center;
+
+}

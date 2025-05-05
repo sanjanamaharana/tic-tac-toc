@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 class="heading">hello sanjana</h1>
+    <button class="start">start</button>
+    <button class="stop">stop</button>
+
+    <script>
+        const start = document.querySelector(".start")
+        const stop = document.querySelector(".stop")
+        const random = function () {
+            return (Math.floor(Math.random() * 256))
+        }
+
+        const bgchange = function () {
+            document.body.style.backgroundColor = `rgb(${random()},${random()},${random()})`
+        }
+
+
+
+        let interval;
+        start.addEventListener("click", function () {
+            interval = setInterval(bgchange, 1000)
+        });
+        stop.addEventListener("click", function () {
+            clearInterval(interval)
+        });
+
+    </script>
+</body>
+
+</html>

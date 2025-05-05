@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <!-- <img src="log.svg" alt="logo"> -->
+    <div class="container flex">
+        <div class="left  border bg-gray rounded">
+            <div class="YourLibrary flex">
+                <div class="heading">
+                    <img class="invert" style="height: 24px; width: 24px;" src="library.svg" alt="l">
+                    <h2>Your library</h2>
+                </div>
+            </div>
+            <div class="bothLeft">
+                <section class="create">
+                    <div class="alpha-create">
+                        <span class="first-playlist">Create your first playlist</span><br>
+                        <span class="help-you">it's easy.we'll help you</span>
+                    </div>
+                    <div class="button-div">
+                        <button class="button">
+                            <span class="button-span">
+                                Create playlist
+
+                            </span>
+                        </button>
+                    </div>
+                </section>
+                <section class="let's-find">
+                    <div class="alpha-create">
+                        <span class="first-playlist">let's find some podcastd to follow</span><br>
+                        <span class="help-you">we'll keep you update on new episodes</span>
+                    </div>
+                    <div class="button-div">
+                        <button class="button">
+                            <span class="button-span">
+                                browse podcasts
+
+                            </span>
+                        </button>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="right bg-gray round m-1 p-1">
+            <div class="header">
+                <div class="nav">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" color="#ffffff"
+                        fill="none">
+                        <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" color="#ffffff"
+                        fill="none">
+                        <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="button">
+                    <button class="signinbtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylist">
+                <h1>Spotify Playlists</h1>
+                <div class="cardContainer">
+                    <div class="card ">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="70" height="70"
+                                fill="none">
+                                <!-- Green Filled Circle -->
+                                <circle cx="12" cy="12" r="10" fill="green" stroke="green" stroke-width="1.5" />
+
+                                <!-- Black Filled Play Button -->
+                                <path
+                                    d="M9.5 11.2V12.8C9.5 14.32 9.5 15.08 9.96 15.39C10.41 15.69 11.03 15.35 12.28 14.67L13.75 13.87C15.25 13.06 16 12.65 16 12C16 11.35 15.25 10.94 13.75 10.13L12.28 9.33C11.03 8.65 10.41 8.31 9.96 8.61C9.5 8.92 9.5 9.68 9.5 11.2Z"
+                                    fill="black" />
+                            </svg>
+
+                        </div>
+                        <img src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_in_default.jpg"
+                            alt="">
+                        <h2>Happy Hits!</h2>
+                        <p>Hit to boost your mood and fill you with happiness!</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_in_default.jpg"
+                            alt="">
+                        <h2>Happy Hits!</h2>
+                        <p>Hit to boost your mood and fill you with happiness!</p>
+                    </div>
+                    <div class="playbar">
+                        <div class="songinfo">
+
+                        </div>
+                        <div class="songbutton">
+                            <img src="previous.svg" alt="pp">
+                            <img src="play.svg" alt="p">
+                            <img src="next.svg" alt="n">
+                        </div>
+                        <div class="songtime">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

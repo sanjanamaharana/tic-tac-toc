@@ -1,0 +1,13 @@
+shift + alt + F //size the code foemat code in vs code
+1. cd D:
+2.cd redyForGSOC
+3. cd //any folder 
+4. git init
+5.git add . //[.] is used for all file in the folder
+6.  git pull --rebase origin main
+7. git commit -m "initial commit"
+8. git remote add origin https://github.com/sanjanamaharana/tic-tac-toc.git
+  // after origin you enter the paste of GitHub 
+ 9. git push -u origin main
+10. git status
+11. git reflog 
